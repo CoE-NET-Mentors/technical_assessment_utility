@@ -7,7 +7,7 @@
             "name": "Learn the Prerequisites",
             "description": "English, Agile Methodologies, OOP and more.",
             "seniority": "Junior",
-            "importance": "Fundamental",
+            "importance": "Essential",
             "prerequisites": [],
             "subtopics": []
         },
@@ -16,7 +16,7 @@
             "name": "General Development Skills",
             "description": "Git, ChatGPT, Data Structures, Algorithms, Design Patterns",
             "seniority": "Junior",
-            "importance": "Fundamental",
+            "importance": "Essential",
             "prerequisites": [],
             "subtopics": [
                 {
@@ -24,7 +24,7 @@
                     "name": "Git",
                     "description": "Git",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
@@ -33,7 +33,7 @@
                     "name": "ChatGPT and Search Engines",
                     "description": "ChatGPT and Search Engines",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
@@ -42,7 +42,7 @@
                     "name": "Data Structures and Algorithms",
                     "description": "Data Structures and Algorithms",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
@@ -51,7 +51,7 @@
                     "name": "Design Patterns",
                     "description": "Design Patterns",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
@@ -60,7 +60,7 @@
                     "name": "Architecture",
                     "description": "Architecture",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 }
@@ -71,7 +71,7 @@
             "name": "C#",
             "description": "C#",
             "seniority": "Junior",
-            "importance": "Fundamental",
+            "importance": "Essential",
             "prerequisites": [],
             "subtopics": [
                 {
@@ -79,12 +79,12 @@
                     "name": "C# Basics",
                     "description": "C# Basics",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
                 {
-                    "id": ".NET 8",
+                    "id": "net8",
                     "name": ".NET 8",
                     "description": ".NET 8",
                     "seniority": "Junior",
@@ -97,7 +97,7 @@
                     "name": "C# 8 Features",
                     "description": "C# 8 Features",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
                 },
@@ -106,9 +106,231 @@
                     "name": "C# Advanced",
                     "description": "C# Advanced",
                     "seniority": "Junior",
-                    "importance": "Fundamental",
+                    "importance": "Essential",
+                    "prerequisites": [
+                        "c#_basics"
+                    ],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "sql_fundamentals",
+            "name": "SQL Fundamentals",
+            "description": "SQL Fundamentals",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "sql_basics",
+                    "name": "SQL Basics",
+                    "description": "SQL Basics",
+                    "seniority": "Junior",
+                    "importance": "Essential",
                     "prerequisites": [],
                     "subtopics": []
+                },
+                {
+                    "id": "stored_procedures",
+                    "name": "Stored Procedures",
+                    "description": "Stored Procedures",
+                    "seniority": "Intermediate",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "constraints",
+                    "name": "Constraints",
+                    "description": "Constraints",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "triggers",
+                    "name": "Triggers",
+                    "description": "Triggers",
+                    "seniority": "Intermediate",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "views",
+                    "name": "Views",
+                    "description": "Views",
+                    "seniority": "Intermediate",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "solid",
+            "name": "SOLID",
+            "description": "SOLID",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "single_responsibility_principle",
+                    "name": "Single Responsibility Principle",
+                    "description": "Single Responsibility Principle",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "open_closed_principle",
+                    "name": "Open Closed Principle",
+                    "description": "Open Closed Principle",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "liskov_substitution_principle",
+                    "name": "Liskov Substitution Principle",
+                    "description": "Liskov Substitution Principle",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "interface_segregation_principle",
+                    "name": "Interface Segregation Principle",
+                    "description": "Interface Segregation Principle",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "dependency_inversion_principle",
+                    "name": "Dependency Inversion Principle",
+                    "description": "Dependency Inversion Principle",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "asp_net_core",
+            "name": "ASP.NET Core",
+            "description": "ASP.NET Core",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "creating_and_consuming_apis",
+                    "name": "Creating and Consuming APIs",
+                    "description": "Creating and Consuming APIs",
+                    "seniority": "Junior",
+                    "importance": "Essential",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "rest",
+                    "name": "REST",
+                    "description": "REST",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "mvc",
+                    "name": "MVC",
+                    "description": "MVC",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "filters_and_attributes",
+                    "name": "Filters and Attributes",
+                    "description": "Filters and Attributes",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "fluent_validation",
+                    "name": "Fluent Validation",
+                    "description": "Fluent Validation",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "middleware",
+                    "name": "Middleware",
+                    "description": "Middleware",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "authentication_and_authorization",
+                    "name": "Authentication and Authorization",
+                    "description": "Authentication and Authorization",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "other_features",
+                    "name": "Other Features",
+                    "description": "Other Features",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "razor_pages",
+                            "name": "Razor Pages",
+                            "description": "Razor Pages",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "blazor",
+                            "name": "Blazor",
+                            "description": "Blazor",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "signalr",
+                            "name": "SignalR",
+                            "description": "SignalR",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        }
+                    ]
                 }
             ]
         }
