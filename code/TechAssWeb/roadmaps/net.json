@@ -1,0 +1,116 @@
+{
+    "roadmap": "Unosquare Developer Roadmap",
+    "version": "2025.2.26",
+    "topics": [
+        {
+            "id": "learn_the_prerequisites",
+            "name": "Learn the Prerequisites",
+            "description": "English, Agile Methodologies, OOP and more.",
+            "seniority": "Junior",
+            "importance": "Fundamental",
+            "prerequisites": [],
+            "subtopics": []
+        },
+        {
+            "id": "general_development_skills",
+            "name": "General Development Skills",
+            "description": "Git, ChatGPT, Data Structures, Algorithms, Design Patterns",
+            "seniority": "Junior",
+            "importance": "Fundamental",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "git",
+                    "name": "Git",
+                    "description": "Git",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "chatgpt_and_search_engines",
+                    "name": "ChatGPT and Search Engines",
+                    "description": "ChatGPT and Search Engines",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "data_structures_and_algorithms",
+                    "name": "Data Structures and Algorithms",
+                    "description": "Data Structures and Algorithms",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "design_patterns",
+                    "name": "Design Patterns",
+                    "description": "Design Patterns",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "architecture",
+                    "name": "Architecture",
+                    "description": "Architecture",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "c#",
+            "name": "C#",
+            "description": "C#",
+            "seniority": "Junior",
+            "importance": "Fundamental",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "c#_basics",
+                    "name": "C# Basics",
+                    "description": "C# Basics",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": ".NET 8",
+                    "name": ".NET 8",
+                    "description": ".NET 8",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "c#_8_features",
+                    "name": "C# 8 Features",
+                    "description": "C# 8 Features",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "c#_advanced",
+                    "name": "C# Advanced",
+                    "description": "C# Advanced",
+                    "seniority": "Junior",
+                    "importance": "Fundamental",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        }
+    ]
+}
