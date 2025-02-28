@@ -400,4 +400,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Node
+.parcel-cache/
 node_modules/
+wwwroot/

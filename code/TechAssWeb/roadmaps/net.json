@@ -333,6 +333,711 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "orm",
+            "name": "ORM",
+            "description": "ORM",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [
+                "sql_fundamentals"
+            ],
+            "subtopics": [
+                {
+                    "id": "entity_framework",
+                    "name": "Entity Framework",
+                    "description": "Entity Framework",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "entity_framework_core_basics",
+                            "name": "Entity Framework Core Basics",
+                            "description": "Entity Framework Core Basics",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "code_first",
+                            "name": "Code First",
+                            "description": "Code First",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": [
+                                {
+                                    "id": "data_annotations",
+                                    "name": "Data Annotations",
+                                    "description": "Data Annotations",
+                                    "seniority": "Junior",
+                                    "importance": "MustHave",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                },
+                                {
+                                    "id": "fluent_api",
+                                    "name": "Fluent API",
+                                    "description": "Fluent API",
+                                    "seniority": "Junior",
+                                    "importance": "GoodToKnow",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                },
+                                {
+                                    "id": "migrations",
+                                    "name": "Migrations",
+                                    "description": "Migrations",
+                                    "seniority": "Junior",
+                                    "importance": "MustHave",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "load_data",
+                            "name": "Load Data",
+                            "description": "Load Data",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": [
+                                {
+                                    "id": "eager_loading",
+                                    "name": "Eager Loading",
+                                    "description": "Eager Loading",
+                                    "seniority": "Junior",
+                                    "importance": "MustHave",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                },
+                                {
+                                    "id": "lazy_loading",
+                                    "name": "Lazy Loading",
+                                    "description": "Lazy Loading",
+                                    "seniority": "Junior",
+                                    "importance": "GoodToKnow",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                },
+                                {
+                                    "id": "explicit_loading",
+                                    "name": "Explicit Loading",
+                                    "description": "Explicit Loading",
+                                    "seniority": "Junior",
+                                    "importance": "GoodToKnow",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                },
+                                {
+                                    "id": "no_tracking",
+                                    "name": "No Tracking",
+                                    "description": "No Tracking",
+                                    "seniority": "Junior",
+                                    "importance": "GoodToKnow",
+                                    "prerequisites": [],
+                                    "subtopics": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "dapper",
+                    "name": "Dapper",
+                    "description": "Dapper",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "depedency_injection",
+            "name": "Depedency Injection",
+            "description": "Depedency Injection",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "di_containers",
+                    "name": "DI Containers",
+                    "description": "DI Containers",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "microsoft_di",
+                            "name": "Microsoft DI",
+                            "description": "Microsoft DI",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "autofac",
+                            "name": "Autofac",
+                            "description": "Autofac",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "ninject",
+                            "name": "Ninject",
+                            "description": "Ninject",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        }
+                    ]
+                },
+                {
+                    "id": "scoping",
+                    "name": "Scoping",
+                    "description": "Scoping",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "scrutor",
+                    "name": "Scrutor",
+                    "description": "Scrutor",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "caching",
+            "name": "Caching",
+            "description": "Caching",
+            "seniority": "Junior",
+            "importance": "GoodToKnow",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "memory_cache",
+                    "name": "Memory Cache",
+                    "description": "Memory Cache",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "distributed_cache",
+                    "name": "Distributed Cache",
+                    "description": "Distributed Cache",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "redis",
+                            "name": "Redis",
+                            "description": "Redis",
+                            "seniority": "Junior",
+                            "importance": "GoodToKnow",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "sql_server_cache",
+                            "name": "SQL Server Cache",
+                            "description": "SQL Server Cache",
+                            "seniority": "Junior",
+                            "importance": "GoodToKnow",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "distributed_memory_cache",
+                            "name": "Distributed Memory Cache",
+                            "description": "Distributed Memory Cache",
+                            "seniority": "Junior",
+                            "importance": "GoodToKnow",
+                            "prerequisites": [],
+                            "subtopics": []
+                        }
+                    ]
+                },
+                {
+                    "id": "entity_framework_second_level_cache",
+                    "name": "Entity Framework Second Level Cache",
+                    "description": "Entity Framework Second Level Cache",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "databases",
+            "name": "Databases",
+            "description": "Databases",
+            "seniority": "Junior",
+            "importance": "GoodToKnow",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "sql_server",
+                    "name": "SQL Server",
+                    "description": "SQL Server",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "postgresql",
+                    "name": "PostgreSQL",
+                    "description": "PostgreSQL",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "mysql",
+                    "name": "MySQL",
+                    "description": "MySQL",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "mongodb",
+                    "name": "MongoDB",
+                    "description": "MongoDB",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "azure_cosmos_db",
+                    "name": "Azure Cosmos DB",
+                    "description": "Azure Cosmos DB",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "aws_dynamo_db",
+                    "name": "AWS Dynamo DB",
+                    "description": "AWS Dynamo DB",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "logging",
+            "name": "Logging",
+            "description": "Logging",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "microsoft_extensions_logging",
+                    "name": "Microsoft Extensions Logging",
+                    "description": "Microsoft Extensions Logging",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "serilog",
+                    "name": "Serilog",
+                    "description": "Serilog",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "nlog",
+                    "name": "NLog",
+                    "description": "NLog",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "elk",
+                    "name": "ELK",
+                    "description": "Elasticsearch, Logstash, Kibana",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "api_and_communications",
+            "name": "API and Communications",
+            "description": "API and Communications",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "odata",
+                    "name": "OData",
+                    "description": "OData",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "grpc",
+                    "name": "gRPC",
+                    "description": "gRPC",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "graphql",
+                    "name": "GraphQL",
+                    "description": "GraphQL",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "swagger",
+                    "name": "Swagger",
+                    "description": "Swagger",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "postman",
+                    "name": "Postman",
+                    "description": "Postman",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "real_time_communication",
+            "name": "Real Time Communication",
+            "description": "Real Time Communication",
+            "seniority": "Junior",
+            "importance": "GoodToKnow",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "signalr",
+                    "name": "SignalR",
+                    "description": "SignalR",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "websockets",
+                    "name": "WebSockets",
+                    "description": "WebSockets",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "object_mapping",
+            "name": "Object Mapping",
+            "description": "Object Mapping",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "automapper",
+                    "name": "AutoMapper",
+                    "description": "AutoMapper",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "mapster",
+                    "name": "Mapster",
+                    "description": "Mapster",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "task_scheduling",
+            "name": "Task Scheduling",
+            "description": "Task Scheduling",
+            "seniority": "Junior",
+            "importance": "GoodToKnow",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "backgroundservice",
+                    "name": "BackgroundService",
+                    "description": "BackgroundService and IHostedService",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "hangfire",
+                    "name": "Hangfire",
+                    "description": "Hangfire",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "quartz_net",
+                    "name": "Quartz.NET",
+                    "description": "Quartz.NET",
+                    "seniority": "Junior",
+                    "importance": "Supplementary",
+                    "prerequisites": [],
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "id": "testing",
+            "name": "Testing",
+            "description": "Testing",
+            "seniority": "Junior",
+            "importance": "MustHave",
+            "prerequisites": [],
+            "subtopics": [
+                {
+                    "id": "unit_testing",
+                    "name": "Unit Testing",
+                    "description": "Unit Testing",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "mstest",
+                            "name": "MSTest",
+                            "description": "MSTest",
+                            "seniority": "Junior",
+                            "importance": "GoodToKnow",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "nunit",
+                            "name": "NUnit",
+                            "description": "NUnit",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "xunit",
+                            "name": "xUnit",
+                            "description": "xUnit",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": []
+                        }
+                    ]
+                },
+                {
+                    "id": "integration_testing",
+                    "name": "Integration Testing",
+                    "description": "Integration Testing",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "end_to_end_testing",
+                    "name": "End-to-End Testing",
+                    "description": "End-to-End Testing",
+                    "seniority": "Junior",
+                    "importance": "GoodToKnow",
+                    "prerequisites": [],
+                    "subtopics": []
+                },
+                {
+                    "id": "mocking",
+                    "name": "Mocking",
+                    "description": "Mocking",
+                    "seniority": "Junior",
+                    "importance": "MustHave",
+                    "prerequisites": [],
+                    "subtopics": [
+                        {
+                            "id": "moq",
+                            "name": "Moq",
+                            "description": "Moq",
+                            "seniority": "Junior",
+                            "importance": "MustHave",
+                            "prerequisites": [],
+                            "subtopics": []
+                        },
+                        {
+                            "id": "nsubstitute",
+                            "name": "NSubstitute",
+                            "description": "NSubstitute",
+                            "seniority": "Junior",
+                            "importance": "Supplementary",
+                            "prerequisites": [],
+                            "subtopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"cicd",
+            "name":"CI/CD",
+            "description":"CI/CD",
+            "seniority":"Junior",
+            "importance":"GoodToKnow",
+            "prerequisites":[],
+            "subtopics":[
+                {
+                    "id":"azure_devops",
+                    "name":"Azure DevOps",
+                    "description":"Azure DevOps",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"jenkins",
+                    "name":"Jenkins",
+                    "description":"Jenkins",
+                    "seniority":"Junior",
+                    "importance":"Supplementary",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"github_actions",
+                    "name":"GitHub Actions",
+                    "description":"GitHub Actions",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"teamcity",
+                    "name":"TeamCity",
+                    "description":"TeamCity",
+                    "seniority":"Junior",
+                    "importance":"Supplementary",
+                    "prerequisites":[],
+                    "subtopics":[]
+                }
+            ]
+        },
+        {
+            "id":"cloud_and_containers",
+            "name":"Cloud and Containers",
+            "description":"Cloud and Containers",
+            "seniority":"Junior",
+            "importance":"GoodToKnow",
+            "prerequisites":[],
+            "subtopics":[
+                {
+                    "id":"docker",
+                    "name":"Docker",
+                    "description":"Docker",
+                    "seniority":"Junior",
+                    "importance":"MustHave",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"kubernetes",
+                    "name":"Kubernetes",
+                    "description":"Kubernetes",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"azure",
+                    "name":"Azure",
+                    "description":"Azure",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"aws",
+                    "name":"AWS",
+                    "description":"AWS",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                },
+                {
+                    "id":"microservices",
+                    "name":"Microservices",
+                    "description":"Microservices",
+                    "seniority":"Junior",
+                    "importance":"GoodToKnow",
+                    "prerequisites":[],
+                    "subtopics":[]
+                }
+            ]
         }
     ]
 }

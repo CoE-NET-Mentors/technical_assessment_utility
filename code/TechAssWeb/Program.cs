@@ -1,9 +1,12 @@
 using Serilog;
+using Serilog.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Host.UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
         .Enrich.FromLogContext()
+        .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+        .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
         .WriteTo.Console()
     );
     builder.Services.AddControllers();

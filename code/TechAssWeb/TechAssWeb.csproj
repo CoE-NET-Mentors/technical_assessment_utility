@@ -20,4 +20,12 @@
 		<None Remove="$(ReactSpaRoot)**" />
 		<None Include="$(ReactSpaRoot)**" Exclude="$(ReactSpaRoot)\node_modules\**" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Content Remove="roadmaps\net.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="roadmaps\net.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>
